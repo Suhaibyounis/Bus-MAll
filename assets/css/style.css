@@ -161,6 +161,7 @@ label span {
 
 .card#cartContents:empty {
   display: none;
+  box-shadow: #813772;
 }
 
 .card#cartContents {
@@ -205,3 +206,8 @@ label span {
   color: red;
   cursor: pointer;
 }
+
+table tbody tr td img{ 
+  width: 40px;
+  height: 40px;
+  }
